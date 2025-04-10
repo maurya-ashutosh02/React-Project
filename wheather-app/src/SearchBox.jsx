@@ -25,10 +25,10 @@ export default function SearchBox() {
 
   const getBackgroundImage = (desc) => {
     desc = desc.toLowerCase();
-    if (desc.includes("cloud")) return "url('/assets/cloudy.jpg')";
-    if (desc.includes("rain")) return "url('/assets/rain.jpg')";
-    if (desc.includes("clear")) return "url('/assets/sunny.jpg')";
-    if (desc.includes("snow")) return "url('/assets/snow.jpg')";
+    if (desc.includes("cloud")) return "url('/src/assets/cloudy.jpg')";
+    if (desc.includes("rain")) return "url('/src/assets/rain.jpg')";
+    if (desc.includes("clear")) return "url('/src/assets/sunny.jpg')";
+    if (desc.includes("snow")) return "url('/src/assets/snow.jpg')";
     return "url('/assets/default.jpg')";
   };
 
